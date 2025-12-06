@@ -284,7 +284,7 @@
             //Console.WriteLine(sum24);
 
 
-            // 1.3.2
+            //                                                                          1.3.2
 
             //                                          1 - masala  
 
@@ -640,6 +640,179 @@
 
             //                                           24 - masala
 
+
+            //                                                                                  1.3.3
+
+
+
+            //                                              1- masala
+
+            //for (int i = 14; i <= 20; i++)
+            //{
+            //    Console.Write($"{i} ");
+            //}
+
+
+            //                                              2- masala
+
+
+            //for (int i = 11; i < 99; i++)
+            //{
+            //    Console.Write($"{i} ");
+            //}
+
+
+            //                                              3- masala
+
+
+            //for (int i = 12; i < 200; i++)
+            //{
+            //    Console.Write($"{i} ");
+            //}
+
+
+            //                                              4- masala
+
+            //for (int i = 25; i > 10; i--)
+            //{
+            //    Console.Write($"{i} ");
+            //}
+
+
+
+            //                                              5- masala
+
+            //for (int i = 500; i > 80; i--)
+            //{
+            //    Console.Write ($"{i},");
+            //}
+
+
+
+            //                                              6- masala
+
+            //for (int i = 11; i < 88; i+= 2)
+            //{
+            //    Console.Write ($"{i},");
+            //}
+
+
+            //                                              7- masala
+
+
+            //for (int i = 12; i < 25; i++)
+            //{
+            //    if(i % 2 == 0)
+            //    {
+
+            //        Console.WriteLine($"{i}");
+            //    }
+            //}
+
+
+            //                                              8- masala
+
+
+            //for(int i = 15; i < 88; i++)
+            //{
+            //    if(i % 2 != 0)
+            //    {
+            //        Console.Write($"{i} ");
+            //    }
+            //}
+
+            //                                              9- masala
+
+
+
+            //for (int i = 99; i >= 10; i--)
+            //{
+            //    if(i % 2  == 0)
+            //    {
+            //        Console.Write($"{i},");
+            //    }
+            //}
+
+
+            //                                              10- masala
+
+
+            //Console.Write("A kiriting:");
+            //int a = int.Parse(Console.ReadLine()!);
+
+
+            //Console.Write("B kiriting:");
+            //int b = int.Parse(Console.ReadLine()!);
+
+            //if (a > b)
+            //{
+            //    Console.WriteLine("B soni A dan katta bolishi lozim");
+
+            //}
+            //for (int i = a; i <= b; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine($"{i},");
+            //    }
+            //}
+
+
+            //                                              11- masala
+
+            //Console.Write("A kiriting:");
+            //int a = int.Parse(Console.ReadLine()!);
+
+
+            //Console.Write("B kiriting:");
+            //int b = int.Parse(Console.ReadLine()!);
+
+
+            //if (a > b)
+            //{
+            //    Console.WriteLine("A soni B dan kichik bolishi kerak");
+            //}
+
+            //for (int i = a; i < b; i++)
+            //{
+            //    if( i % 5  == 0 && i % 6 == 0)
+            //    {
+
+            //        Console.Write($"{i},");
+            //    }
+
+            //}
+
+
+
+            //                                              12- masala
+
+
+            //int a = 11;
+            //int b = 998;
+
+            //for(int i = a; i <= b; i++)
+            //{
+            //    if(i % 10 == 0) 
+            //    { Console.WriteLine($"{i}"); 
+            //    }
+
+            //}
+
+
+
+            //                                              13 - masala
+
+            //int a = 15;
+            //int b = 98;
+
+            //for(int i = b; i >= a; i--)
+            //{   
+            //  if (i % 7 ==0 && i % 8 == 0)
+            //    {
+            //        Console.Write($"{i},");
+            //    }
+            //}
         }
     }
 }
