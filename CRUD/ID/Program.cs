@@ -46,7 +46,7 @@ namespace Id
         // ------------------ CREATE ------------------
         static void CreateId(string id)
         {
-            if (!IsValidId(id))
+            if (IsValidId(id))
             {
                 Console.WriteLine(" Xato ID raqam");
                 return;
