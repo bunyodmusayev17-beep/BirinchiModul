@@ -5,13 +5,13 @@ internal class Program
 {
     static void Main()
     {
-        //        List<int> list = new List<int> { 12, 105, -256, 9, 999, 1000, -99, 14, 21, 35 };
+        List<int> list = new List<int> { 12, 105, -256, 9, 999, 1000, -99, 14, 21, 35 };
 
         //        //------------------1-masala------------------
 
 
 
-        //        Console.WriteLine(ThreeDigitCount(list));
+        Console.WriteLine(ThreeDigitCount(list));
 
 
 
@@ -125,14 +125,14 @@ internal class Program
 
 
         //    //------------------1-masala------------------
-        //    static int ThreeDigitCount(List<int> list)
-        //    {
-        //        int count = 0;
-        //        foreach (int x in list)
-        //            if (Math.Abs(x) >= 100 && Math.Abs(x) <= 999)
-        //                count++;
-        //        return count;
-        //    }
+        static int ThreeDigitCount(List<int> list)
+        {
+            int count = 0;
+            foreach (int x in list)
+                if (Math.Abs(x) >= 100 && Math.Abs(x) <= 999)
+                    count++;
+            return count;
+        }
 
         //    //------------------2-masala------------------
         //    static int EvenCount(List<int> list)
