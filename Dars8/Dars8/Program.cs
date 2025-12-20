@@ -210,14 +210,14 @@ internal class Program
 
         //    //------------------10-masala------------------
 
-        //    static void MultiplyEvenByThree(List<int> list)
-        //    {
-        //        for (int i = 0; i < list.Count; i++)
-        //            if (list[i] % 2 == 0)
-        //                list[i] *= 3;
-        //    }
+        static void MultiplyEvenByThree(List<int> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+                if (list[i] % 2 == 0)
+                    list[i] *= 3;
+        }
 
-
+            
         //    //------------------11-masala------------------
 
         //    static bool AllMultipleOfFive(List<int> list)
